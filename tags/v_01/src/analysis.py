@@ -27,18 +27,20 @@ sys.path.append(source_path)
 
 
 def get_list(file_name):
+    print "load list start...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     # 从文件中读取到列表里
-    txt = file_utils.get_file_txt(file_name)
-    l = txt.strip().split('\n')
-    l2 = [eval(str(item)) for item in l]
+    l = file_utils.read_file_lines_to_list(file_name)
+    print "load list...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    l2 = [eval(item) for item in l]
+    print "load list end...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     return l2
 
 
 def do_day(date_now):
     file_name = 'data/analysis_%s.json' % date_now
     print 'file_name:%s' % file_name
+
     l = get_list(file_name)
-    # print "load list now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
     wanfa_result = wanfa_xuanze.print_wanfaxuanze(l)
     file_utils.write_obj_to_json_file(wanfa_result, 'result/wanfa_%s.json' % date_now)

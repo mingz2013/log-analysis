@@ -15,6 +15,11 @@ def get_file_txt(file_name):
         return txt
 
 
+def read_file_lines_to_list(file_name):
+    with codecs.open(file_name, encoding='utf-8') as f:
+        return f.readlines()
+
+
 def write_obj_to_json_file(obj, file_name):
     with codecs.open(file_name, encoding='utf-8', mode='wb') as f:
         json.dump(obj, f, ensure_ascii=False)
