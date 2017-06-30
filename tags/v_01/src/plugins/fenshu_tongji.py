@@ -4,7 +4,6 @@ Created on 30/06/2017
 
 @author: zhaojm
 '''
-import codecs
 import json
 
 
@@ -29,10 +28,5 @@ def print_fenshu_tongji(l):
                 k_v_result[play_mode][score] += 1
 
     print json.dumps(k_v_result, ensure_ascii=False)
-
-    for (k, v) in k_v_result.items():
-        print "---playMode:%s-----" % k
-        for (kk, vv) in v.items():
-            print '%s:%s' % (kk, vv)
 
     return k_v_result
