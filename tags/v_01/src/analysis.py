@@ -36,7 +36,7 @@ def get_list(file_name):
 
 def do_day(date_now):
     file_name = 'data/analysis_%s.json' % date_now
-    # print 'file_name:%s' % file_name
+    print 'file_name:%s' % file_name
     l = get_list(file_name)
     # print "load list now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
