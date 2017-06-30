@@ -64,3 +64,4 @@ target/
 *.log
 *.json
 *.tar.gz
+*.zip
