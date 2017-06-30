@@ -5,15 +5,25 @@ Created on 30/06/2017
 @author: zhaojm
 '''
 
-import codecs
 import datetime
-import json
+import os
+import sys
 
 import file_utils
-
 from plugins import fanxing_tongji
 from plugins import fenshu_tongji
 from plugins import wanfa_xuanze
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+print "sys default encoding: ", sys.getdefaultencoding()
+
+current_path = os.path.dirname(os.path.abspath(__file__))
+source_path = os.path.join(current_path, "")
+sys.path.append(source_path)
+
+
+# sys.path.append(os.path.join(source_path, "difang/src/"))
 
 
 def get_list(file_name):
@@ -26,9 +36,8 @@ def get_list(file_name):
 
 def do_day(date_now):
     file_name = 'data/analysis_%s.json' % date_now
-    print 'file_name:%s' % file_name
+    # print 'file_name:%s' % file_name
     l = get_list(file_name)
-
     # print "load list now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
     wanfa_result = wanfa_xuanze.print_wanfaxuanze(l)
@@ -39,7 +48,6 @@ def do_day(date_now):
 
     fenshu_result = fenshu_tongji.print_fenshu_tongji(l)
     file_utils.write_obj_to_json_file(fenshu_result, 'result/fenshu_%s.json' % date_now)
-
 
 
 def main():
@@ -56,19 +64,4 @@ def main():
 
 
 if __name__ == '__main__':
-    import sys
-
-    reload(sys)
-    sys.setdefaultencoding("utf-8")
-    print "sys default encoding: ", sys.getdefaultencoding()
-
-    import os
-    import sys
-    import unittest
-
-    current_path = os.path.dirname(os.path.abspath(__file__))
-    source_path = os.path.join(current_path, "")
-    sys.path.append(source_path)
-    # sys.path.append(os.path.join(source_path, "difang/src/"))
-
     main()
