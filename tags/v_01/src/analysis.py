@@ -8,9 +8,9 @@ Created on 30/06/2017
 import codecs
 import datetime
 
-import fanxing_tongji
-import fenshu_tongji
-import wanfa_xuanze
+from plugins import fanxing_tongji
+from plugins import fenshu_tongji
+from plugins import wanfa_xuanze
 
 
 def get_list(file_name):
@@ -44,5 +44,14 @@ if __name__ == '__main__':
     reload(sys)
     sys.setdefaultencoding("utf-8")
     print "sys default encoding: ", sys.getdefaultencoding()
+
+    import os
+    import sys
+    import unittest
+
+    current_path = os.path.dirname(os.path.abspath(__file__))
+    source_path = os.path.join(current_path, "")
+    sys.path.append(source_path)
+    # sys.path.append(os.path.join(source_path, "difang/src/"))
 
     main()
