@@ -23,9 +23,6 @@ source_path = os.path.join(current_path, "")
 sys.path.append(source_path)
 
 
-# sys.path.append(os.path.join(source_path, "difang/src/"))
-
-
 def get_list(file_name):
     print "load list start...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     # 从文件中读取到列表里
