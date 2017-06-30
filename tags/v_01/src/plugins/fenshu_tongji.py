@@ -29,9 +29,10 @@ def print_fenshu_tongji(l):
                 k_v_result[play_mode][score] += 1
 
     print json.dumps(k_v_result, ensure_ascii=False)
-    with codecs.open('result/fenshu.json', encoding='utf-8', mode='wb') as f:
-        json.dump(k_v_result, f, ensure_ascii=False)
+
     for (k, v) in k_v_result.items():
         print "---playMode:%s-----" % k
         for (kk, vv) in v.items():
             print '%s:%s' % (kk, vv)
+
+    return k_v_result
