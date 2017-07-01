@@ -59,7 +59,7 @@ def main():
     day_list = [
         '2017_06_27', '2017_06_28', '2017_06_29', '2017_06_30'
     ]
-    day_list = ['2017_06_30']
+    # day_list = ['2017_06_30']
 
     for date_now in day_list:
         do_day(date_now)
