@@ -8,6 +8,7 @@ Created on 30/06/2017
 import datetime
 import os
 import sys
+import json
 
 import file_utils
 from plugins import fanxing_tongji
@@ -28,7 +29,11 @@ def get_list(file_name):
     # 从文件中读取到列表里
     l = file_utils.read_file_lines_to_list(file_name)
     print "load list...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-    l2 = [eval(item) for item in l]
+    l2 = []
+    for item in l:
+        ps = "'" + item.strip() + "'"
+        ps = eval(ps)
+        l2.append(json.loads(ps))
     print "load list end...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     return l2
 
@@ -53,7 +58,7 @@ def main():
     print "main now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
     day_list = [
-        '2017_06_27', '2017_06_28', '2017_06_29'
+        '2017_06_30'
     ]
 
     for date_now in day_list:
