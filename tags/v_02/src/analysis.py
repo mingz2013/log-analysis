@@ -11,9 +11,7 @@ import sys
 import json
 
 import file_utils
-from plugins import fanxing_tongji
-from plugins import fenshu_tongji
-from plugins import wanfa_xuanze
+from plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_xuanze
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -52,6 +50,12 @@ def do_day(date_now):
 
     fenshu_result = fenshu_tongji.print_fenshu_tongji(l)
     file_utils.write_obj_to_json_file(fenshu_result, 'result/fenshu_%s.json' % date_now)
+
+    try:
+        shijian_result = shijian_tongji.print_shijian_tongji(l)
+        file_utils.write_obj_to_json_file(shijian_result, 'result/shijian_%s.json' % date_now)
+    except:
+        pass
 
 
 def main():
