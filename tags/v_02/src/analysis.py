@@ -53,9 +53,8 @@ def main():
     print "main now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
     day_list = [
-        '2017_06_27', '2017_06_28', '2017_06_29', '2017_06_30'
+        '2017_06_27', '2017_06_28', '2017_06_29'
     ]
-    day_list = ['2017_06_30']
 
     for date_now in day_list:
         do_day(date_now)
