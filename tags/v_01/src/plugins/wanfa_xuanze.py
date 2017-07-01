@@ -31,6 +31,6 @@ def print_wanfaxuanze(l):
                 if new_key not in result[play_mode]:
                     result[play_mode][new_key] = 0
                 result[play_mode][new_key] += 1
-    print json.dumps(result, ensure_ascii=False)
+    print json.dumps(result, sort_keys=True, ensure_ascii=False)
 
     return result

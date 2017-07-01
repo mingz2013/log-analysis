@@ -19,6 +19,6 @@ def print_fenshu_tongji(l):
             if score not in result[play_mode]:
                 result[play_mode][score] = 0
             result[play_mode][score] += 1
-    print json.dumps(result, ensure_ascii=False)
+    print json.dumps(result, sort_keys=True, ensure_ascii=False)
 
     return result

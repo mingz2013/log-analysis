@@ -21,5 +21,5 @@ def print_fanxing_tongji(l):
                 if p not in result[play_mode]:
                     result[play_mode][p] = 0
                 result[play_mode][p] += 1
-    print json.dumps(result, ensure_ascii=False)
+    print json.dumps(result, sort_keys=True, ensure_ascii=False)
     return result
