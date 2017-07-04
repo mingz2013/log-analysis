@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/tmp/analysis_2017_06_30.log.tar copy.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/config/712.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_06_27.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_06_28.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_06_29.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_06_30 copy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_06_30.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_07_01.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_07_02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/analysis_2017_07_03.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/data/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_06_27.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_06_28.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_06_29.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_06_30 copy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_06_30.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_07_01.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_07_02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fanxing_2017_07_03.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_06_27.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_06_28.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_06_29.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_06_30 copy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_06_30.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_07_01.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_07_02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/fenshu_2017_07_03.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/shijian_2017_06_30.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/shijian_2017_07_01.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/shijian_2017_07_02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/shijian_2017_07_03.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_06_27.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_06_28.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_06_29.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_06_30 copy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_06_30.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_07_01.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_07_02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/result/wanfa_2017_07_03.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_01/src/analysis.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/setup.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/file_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/plugins/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/plugins/fanxing_tongji.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/plugins/fenshu_tongji.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/plugins/shijian_tongji.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/plugins/wanfa_xuanze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/v_02/src/table_config.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/setup.sh" afterPath="$PROJECT_DIR$/analysis/setup.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/__init__.py" afterPath="$PROJECT_DIR$/analysis/src/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/file_utils.py" afterPath="$PROJECT_DIR$/analysis/src/file_utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/plugins/__init__.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/plugins/fanxing_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/fanxing_tongji.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/plugins/fenshu_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/plugins/shijian_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/plugins/wanfa_xuanze.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_01/src/table_config.py" afterPath="$PROJECT_DIR$/analysis/src/table_config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tags/v_02/src/analysis.py" afterPath="$PROJECT_DIR$/analysis/src/analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init" />
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -641,14 +579,20 @@
       <option name="project" value="LOCAL" />
       <updated>1499135332268</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="init">
+      <created>1499135413196</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1499135413196</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="718" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Kevoree Base64 Translator" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
