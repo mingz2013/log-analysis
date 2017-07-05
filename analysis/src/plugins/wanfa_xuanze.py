@@ -15,7 +15,7 @@ def print_wanfaxuanze(l):
     result = {}
     for item in l:
         item_params = item['item_params']
-        play_mode = item['play_mode:']
+        play_mode = item['play_mode']
         if play_mode not in result:
             result[play_mode] = {}
         for (kk, vv) in item_params.items():

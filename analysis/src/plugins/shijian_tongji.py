@@ -13,7 +13,7 @@ def print_shijian_tongji(l):
     result = {}
     for item in l:
         time_now = item['time_now']
-        play_mode = item['play_mode:']
+        play_mode = item['play_mode']
         if play_mode not in result:
             result[play_mode] = {}
 

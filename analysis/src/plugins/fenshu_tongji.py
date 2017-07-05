@@ -12,7 +12,7 @@ def print_fenshu_tongji(l):
     result = {}
     for item in l:
         scores = item['scores']
-        play_mode = item['play_mode:']
+        play_mode = item['play_mode']
         if play_mode not in result:
             result[play_mode] = {}
         for score in scores:

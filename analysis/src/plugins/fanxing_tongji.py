@@ -13,7 +13,7 @@ def print_fanxing_tongji(l):
     result = {}
     for item in l:
         patterns = item['patterns']
-        play_mode = item['play_mode:']
+        play_mode = item['play_mode']
         if play_mode not in result:
             result[play_mode] = {}
         for pattern in patterns:
