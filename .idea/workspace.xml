@@ -2,12 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/src/app/main/analysis.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/dbredis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/init_db.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/init_redis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/main/articles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/main/uploader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/anchor/anchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/attachment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/attachment/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/background/background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/background/background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/background/background.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/background/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/background/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/chart.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/charts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/emotion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/emotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/gmap/gmap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/help/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/help/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/help/help.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/image/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/link/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/map/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/music/music.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/music/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/music/music.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/spechars/spechars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/spechars/spechars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/dragicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/edittable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/edittable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/edittable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/edittd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/table/edittip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/pre0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/pre1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/pre2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/pre3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/images/pre4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/video.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/webapp/webapp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/addimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/deletedisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/deleteenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/listbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/en/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/Uploader.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/action_crawler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/action_list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/action_upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/php/controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/filescan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/loaderror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/video-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/video-js.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/video.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/video-js/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/xss.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/ueditor.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/static/ueditor/ueditor.parse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/_macros.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/new.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/base.html" afterPath="$PROJECT_DIR$/webapp/src/app/templates/analysis/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/src/app/templates/articles/index.html" afterPath="$PROJECT_DIR$/webapp/src/app/templates/analysis/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/analysis.py" afterPath="$PROJECT_DIR$/analysis/src/analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/plugins/fanxing_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/fanxing_tongji.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py" afterPath="$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/src/app/main/__init__.py" afterPath="$PROJECT_DIR$/webapp/src/app/main/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/src/app/static/articles/package.json" afterPath="$PROJECT_DIR$/webapp/src/app/static/articles/package.json" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,58 +315,7 @@
     <favorites_list name="log_analysis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fanxing_tongji.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/src/plugins/fanxing_tongji.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fenshu_tongji.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shijian_tongji.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wanfa_xuanze.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4185022">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +354,11 @@
         <option value="$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py" />
         <option value="$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py" />
         <option value="$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py" />
+        <option value="$PROJECT_DIR$/webapp/src/app/main/articles.py" />
+        <option value="$PROJECT_DIR$/webapp/src/app/main/__init__.py" />
+        <option value="$PROJECT_DIR$/webapp/src/app/static/articles/package.json" />
+        <option value="$PROJECT_DIR$/webapp/src/app/templates/analysis/base.html" />
+        <option value="$PROJECT_DIR$/webapp/src/app/templates/analysis/index.html" />
       </list>
     </option>
   </component>
@@ -158,6 +399,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,21 +428,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log_analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log_analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -218,7 +446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analysis" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -226,13 +454,188 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,23 +1048,30 @@
       <option name="project" value="LOCAL" />
       <updated>1499135871505</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="init">
+      <created>1499223155131</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1499223155131</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="718" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2867804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Kevoree Base64 Translator" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24494143" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24442083" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -670,7 +1080,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -694,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,13 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/uploader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7816901">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -739,27 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/init_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/init_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/app/default_encoding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -771,20 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35915494">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/articles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2957747">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/errors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48591548">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -809,27 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/templates/articles/new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67784256">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/dbredis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12676056">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/static/articles/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/app/static/articles/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.590379">
@@ -848,46 +1193,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8118467">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/src/plugins/fanxing_tongji.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33039647">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/src/plugins/fenshu_tongji.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.30837005">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/src/plugins/shijian_tongji.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.30837005">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/src/plugins/wanfa_xuanze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4185022">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.7488987">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4845815">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5498339">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14950167">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6747405">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47342193">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/templates/analysis/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33217993">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/templates/analysis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/static/articles/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025951557">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>

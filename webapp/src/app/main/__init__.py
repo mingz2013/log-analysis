@@ -5,7 +5,7 @@ from flask import Blueprint, request, jsonify
 
 main = Blueprint('main', __name__, url_prefix='')
 
-from . import articles, errors
+from . import analysis, errors
 
 
 @main.route('/test_post', methods=['POST'])
