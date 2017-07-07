@@ -25,7 +25,7 @@ def index():
     return render_template("index.html", result=result)
 
 
-@main.route('/result/<path:path>')
+@main.route('/result/<path:path>', methods=['GET'])
 def send_json(path):
     # print "send_json", path
     response = make_response(send_from_directory(result_dir, path))
