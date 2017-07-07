@@ -9,6 +9,7 @@ from webapp.config import result_dir
 from . import main
 
 
+@main.route('/result/', methods=['GET'])
 @main.route('/', methods=['GET'])
 def index():
     result = []
