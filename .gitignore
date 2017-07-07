@@ -69,3 +69,4 @@ target/
 
 *.tar.gz
 *.zip
+nohup.out
