@@ -3,7 +3,7 @@ __author__ = 'zhaojm'
 
 import os
 
-from flask import send_from_directory, render_template
+from flask import send_from_directory, render_template, make_response
 
 from webapp.config import result_dir
 from . import main
@@ -27,4 +27,6 @@ def index():
 @main.route('/result/<path:path>')
 def send_json(path):
     # print "send_json", path
-    return send_from_directory(result_dir, path)
+    response = make_response(send_from_directory(result_dir, path))
+    response.headers['Content-type'] = "text/json; charset=utf-8"
+    return response
