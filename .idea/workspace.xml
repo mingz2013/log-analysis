@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/main/analysis.py" afterPath="$PROJECT_DIR$/src/webapp/main/analysis.py" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +57,8 @@
       <file leaf-file-name="analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/webapp/main/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5777778">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.73333335">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
@@ -578,12 +577,6 @@
       <option name="number" value="Default" />
       <updated>1498823361937</updated>
     </task>
-    <task id="LOCAL-00017" summary="init">
-      <created>1498902091270</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1498902091270</updated>
-    </task>
     <task id="LOCAL-00018" summary="init">
       <created>1498902218255</created>
       <option name="number" value="00018" />
@@ -872,7 +865,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499425354422</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="init">
+      <created>1499425460369</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1499425460369</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1201,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/main/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5777778">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.73333335">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
