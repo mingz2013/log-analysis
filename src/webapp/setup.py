@@ -4,9 +4,13 @@ __author__ = 'zhaojm'
 import os
 import sys
 
+current_path = os.path.dirname(os.path.abspath(__file__))
+source_path = os.path.join(current_path, "..")
+sys.path.append(source_path)
 # sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.abspath('.'))
-from app import create_app
+
+from webapp import create_app
 
 print "************* CURRENT CONFIG MODE: ", os.getenv('demo.blog.config.mode')
 mode = os.getenv('demo.blog.config.mode') or 'default'

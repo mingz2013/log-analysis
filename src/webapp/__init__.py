@@ -6,8 +6,8 @@ def register_logging(app):
     import logging
     from logging.handlers import RotatingFileHandler
     # 内部日志
-    rotating_handler1 = RotatingFileHandler('logs/info.log', maxBytes=1 * 1024 * 1024, backupCount=5)
-    rotating_handler2 = RotatingFileHandler('logs/error.log', maxBytes=1 * 1024 * 1024, backupCount=2)
+    rotating_handler1 = RotatingFileHandler('log/info.log', maxBytes=1 * 1024 * 1024, backupCount=5)
+    rotating_handler2 = RotatingFileHandler('log/error.log', maxBytes=1 * 1024 * 1024, backupCount=2)
     formatter1 = logging.Formatter("-" * 100 +
                                    '\n %(asctime)s %(levelname)s - '
                                    'in %(funcName)s [%(filename)s:%(lineno)d]:\n %(message)s')
