@@ -1,7 +1,9 @@
 import os
 
-# basedir = os.path.abspath(os.path.dirname(__file__))
-basedir = os.path.abspath('.')
+basedir = os.path.abspath(os.path.dirname(__file__))
+# basedir = os.path.abspath('.')
+source_path = os.path.join(basedir, "..")
+result_dir = os.path.join(source_path, "../result/")
 
 
 class Config(object):
