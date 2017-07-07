@@ -20,7 +20,9 @@ print "sys default encoding: ", sys.getdefaultencoding()
 current_path = os.path.dirname(os.path.abspath(__file__))
 source_path = os.path.join(current_path, "")
 sys.path.append(source_path)
-sys.path.append(os.path.join(source_path, '..'))
+
+
+# sys.path.append(os.path.join(source_path, '..'))
 
 
 def get_list(file_name):
@@ -69,8 +71,8 @@ def main():
     # for date_now in day_list:
     #     do_day(date_now)
 
-    date_now = datetime.datetime.now().strftime('%Y_%m_%d')
-    do_day(date_now)
+    date_lastday = datetime.datetime.now() + datetime.timedelta(days=-1)
+    do_day(date_lastday.strftime('%Y_%m_%d'))
 
     print "main end now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
