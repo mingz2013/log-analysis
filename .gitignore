@@ -60,11 +60,11 @@ target/
 
 # Created by .ignore support plugin (hsz.mobi)
 
-/analysis/result
-/analysis/data
-/analysis/tmp
-/analysis/config
 
+
+/tmp
+/config/712.json
+/result
 
 *.tar.gz
 *.zip
