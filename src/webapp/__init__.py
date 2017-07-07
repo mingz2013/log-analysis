@@ -30,7 +30,7 @@ db = SQLAlchemy()
 
 def create_app(config_mode):
     from flask import Flask
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='')
     from config import config_dict
     app.config.from_object(config_dict[config_mode])
     config_dict[config_mode].init_app(app)
