@@ -37,7 +37,7 @@ def get_list(file_name):
 
 
 def do_day(date_now):
-    file_name = 'data/analysis_%s.json' % date_now
+    file_name = 'tmp/tmp_%s.json' % date_now
     print 'file_name:%s' % file_name
 
     l = get_list(file_name)
@@ -51,25 +51,25 @@ def do_day(date_now):
     fenshu_result = fenshu_tongji.print_fenshu_tongji(l)
     file_utils.write_obj_to_json_file(fenshu_result, 'result/fenshu_%s.json' % date_now)
 
-    try:
-        shijian_result = shijian_tongji.print_shijian_tongji(l)
-        file_utils.write_obj_to_json_file(shijian_result, 'result/shijian_%s.json' % date_now)
-    except:
-        pass
+    shijian_result = shijian_tongji.print_shijian_tongji(l)
+    file_utils.write_obj_to_json_file(shijian_result, 'result/shijian_%s.json' % date_now)
 
 
 def main():
     print "main now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
-    day_list = [
-        # '2017_06_30',
-        # '2017_07_01',
-        # '2017_07_02'
-        '2017_07_05'
-    ]
+    # day_list = [
+    #     # '2017_06_30',
+    #     # '2017_07_01',
+    #     # '2017_07_02'
+    #     '2017_07_05'
+    # ]
 
-    for date_now in day_list:
-        do_day(date_now)
+    # for date_now in day_list:
+    #     do_day(date_now)
+
+    date_now = datetime.datetime.now().strftime('%Y_%m_%d')
+    do_day(date_now)
 
     print "main end now...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
