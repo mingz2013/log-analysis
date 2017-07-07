@@ -26,4 +26,11 @@ if __name__ == '__main__':
 
     app.debug = True
     print "setup on http://0.0.0.0:8080"
-    app.run(host='0.0.0.0', port=8080)
+    # app.run(host='0.0.0.0', port=8080)
+
+    from gevent.wsgi import WSGIServer
+
+    # from yourapplication import app
+
+    http_server = WSGIServer(('', 8080), app)
+    http_server.serve_forever()

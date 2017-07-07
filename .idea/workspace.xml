@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/run_web_test.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/run_test.sh" afterPath="$PROJECT_DIR$/scripts/run_web.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/main/analysis.py" afterPath="$PROJECT_DIR$/src/webapp/main/analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/setup.py" afterPath="$PROJECT_DIR$/src/webapp/setup.py" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/webapp/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
@@ -48,13 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/webapp/main/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6032907">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="e#46#100#0" expanded="true" />
+                <element signature="e#46#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_web_test.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_web_test.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/run_web_test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027422303">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
@@ -180,12 +180,12 @@
         <option value="$PROJECT_DIR$/src/webapp/templates/analysis/index.html" />
         <option value="$PROJECT_DIR$/src/webapp/__init__.py" />
         <option value="$PROJECT_DIR$/src/webapp/config.py" />
-        <option value="$PROJECT_DIR$/src/webapp/main/analysis.py" />
         <option value="$PROJECT_DIR$/src/webapp/templates/index.html" />
         <option value="$PROJECT_DIR$/scripts/run_test.sh" />
-        <option value="$PROJECT_DIR$/src/webapp/setup.py" />
         <option value="$PROJECT_DIR$/scripts/run_web.py" />
         <option value="$PROJECT_DIR$/scripts/run_web_test.sh" />
+        <option value="$PROJECT_DIR$/src/webapp/setup.py" />
+        <option value="$PROJECT_DIR$/src/webapp/main/analysis.py" />
       </list>
     </option>
   </component>
@@ -600,12 +600,6 @@
       <option name="number" value="Default" />
       <updated>1498823361937</updated>
     </task>
-    <task id="LOCAL-00009" summary="init">
-      <created>1498828674022</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1498828674022</updated>
-    </task>
     <task id="LOCAL-00010" summary="init">
       <created>1498828716491</created>
       <option name="number" value="00010" />
@@ -894,7 +888,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499420853987</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="init">
+      <created>1499420979716</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1499420979716</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1096,7 +1096,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <element signature="e#46#79#0" expanded="true" />
+            <element signature="e#46#79#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1165,16 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/main/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5">
@@ -1191,21 +1181,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/run_web_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/run_web_test.sh">
+    <entry file="file://$PROJECT_DIR$/src/webapp/main/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027422303">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.6032907">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
