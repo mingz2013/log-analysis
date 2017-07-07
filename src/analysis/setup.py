@@ -10,8 +10,6 @@ import os
 import sys
 import json
 
-from analysis import file_utils
-from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -22,6 +20,10 @@ source_path = os.path.join(current_path, "..")
 sys.path.append(source_path)
 
 # sys.path.append(os.path.join(source_path, '..'))
+
+
+from analysis import file_utils
+from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
 
 
 def get_list(file_name):
