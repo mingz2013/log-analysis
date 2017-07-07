@@ -14,6 +14,7 @@ from . import main
 def index():
     result = []
     for top, dirs, nondirs in os.walk(result_dir):
+        nondirs.sort()
         for filename in nondirs:
             d = {
                 "filename": filename,
