@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-pypy -m SimpleHTTPServer 8080 analysis/result/
+nohup pypy -m SimpleHTTPServer 8080 analysis/result/ &

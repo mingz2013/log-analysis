@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crontab/crontab.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/read.me.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/start_web_server.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/start_web_server.sh" afterPath="$PROJECT_DIR$/scripts/start_web_server.sh" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/start_web_server.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.030991735">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -715,7 +713,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499398513821</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="init">
+      <created>1499399997015</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1499399997015</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1029,7 +1033,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/start_web_server.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.030991735">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
