@@ -1,0 +1,2 @@
+
+ 0  3   *  *  *  zhaojingming  bash /home/zhaojingming/apps/log_analysis/crontab/analysis.sh >/dev/null 2>&1
