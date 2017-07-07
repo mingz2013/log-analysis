@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webapp/static/articles/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webapp/static/articles/css/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webapp/static/articles/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/log_analysis.iml" afterPath="$PROJECT_DIR$/.idea/log_analysis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/__init__.py" afterPath="$PROJECT_DIR$/src/webapp/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/main/analysis.py" afterPath="$PROJECT_DIR$/src/webapp/main/analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/setup.py" afterPath="$PROJECT_DIR$/src/webapp/setup.py" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -536,12 +529,6 @@
       <option name="number" value="Default" />
       <updated>1498823361937</updated>
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1498823525497</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1498823525497</updated>
-    </task>
     <task id="LOCAL-00002" summary="init">
       <created>1498823931995</created>
       <option name="number" value="00002" />
@@ -830,7 +817,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499415839369</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="init">
+      <created>1499416569262</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1499416569263</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
