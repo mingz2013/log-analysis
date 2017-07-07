@@ -20,6 +20,7 @@ print "sys default encoding: ", sys.getdefaultencoding()
 current_path = os.path.dirname(os.path.abspath(__file__))
 source_path = os.path.join(current_path, "")
 sys.path.append(source_path)
+sys.path.append(os.path.join(source_path, '..'))
 
 
 def get_list(file_name):

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/src/analysis.py" afterPath="$PROJECT_DIR$/analysis/src/analysis.py" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="analysis_crontab.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analysis_crontab.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis/analysis_crontab.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15495868">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="712.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/config/712.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.55785125">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+              <folding>
+                <element signature="e#71#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +104,8 @@
         <option value="$PROJECT_DIR$/webapp/src/uwsgi/uwsgi.ini" />
         <option value="$PROJECT_DIR$/analysis_log.sh" />
         <option value="$PROJECT_DIR$/crontab/analysis_log.sh" />
-        <option value="$PROJECT_DIR$/analysis/src/analysis.py" />
         <option value="$PROJECT_DIR$/analysis/analysis_crontab.sh" />
+        <option value="$PROJECT_DIR$/analysis/src/analysis.py" />
       </list>
     </option>
   </component>
@@ -619,7 +642,13 @@
       <option name="project" value="LOCAL" />
       <updated>1499397222268</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="init">
+      <created>1499397403974</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1499397403974</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -873,19 +902,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
+    <entry file="file://$PROJECT_DIR$/analysis/analysis_crontab.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8629707">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/analysis_crontab.sh">
+    <entry file="file://$PROJECT_DIR$/analysis/config/712.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15495868">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/src/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785125">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
