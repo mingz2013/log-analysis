@@ -5,6 +5,8 @@
 
 {% block body %}
 
-    index
+    {% for r in result %}
+        <a href="{{ r.url }}">{{ r.filename }}</a><br/>
+    {% endfor %}
 
 {% endblock %}

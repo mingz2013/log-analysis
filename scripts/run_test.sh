@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-pypy src/webapp/setup.py
+nohup pypy src/webapp/setup.py &
