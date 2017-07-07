@@ -25,5 +25,5 @@ if __name__ == '__main__':
     init_encoding()
 
     app.debug = True
-    print "setup on http://0.0.0.0:5000"
-    app.run(host='0.0.0.0', port=5000)
+    print "setup on http://0.0.0.0:8080"
+    app.run(host='0.0.0.0', port=8080)
