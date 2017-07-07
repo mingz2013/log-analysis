@@ -65,6 +65,7 @@ target/
 /tmp
 /config/712.json
 /result
+/log
 
 *.tar.gz
 *.zip

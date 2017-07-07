@@ -10,17 +10,16 @@ import os
 import sys
 import json
 
-import file_utils
-from plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
+from analysis import file_utils
+from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 print "sys default encoding: ", sys.getdefaultencoding()
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-source_path = os.path.join(current_path, "")
+source_path = os.path.join(current_path, "..")
 sys.path.append(source_path)
-
 
 # sys.path.append(os.path.join(source_path, '..'))
 

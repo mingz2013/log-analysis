@@ -7,7 +7,7 @@ Created on 30/06/2017
 
 import json
 
-import table_config
+from analysis import table_config
 
 
 def print_wanfaxuanze(l):
