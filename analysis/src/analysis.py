@@ -11,7 +11,7 @@ import sys
 import json
 
 import file_utils
-from plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_xuanze
+from plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -45,7 +45,7 @@ def do_day(date_now):
 
     l = get_list(file_name)
 
-    wanfa_result = wanfa_xuanze.print_wanfaxuanze(l)
+    wanfa_result = wanfa_tongji.print_wanfaxuanze(l)
     file_utils.write_obj_to_json_file(wanfa_result, 'result/wanfa_%s.json' % date_now)
 
     fanxing_result = fanxing_tongji.print_fanxing_tongji(l)
