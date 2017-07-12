@@ -25,7 +25,7 @@ if __name__ == '__main__':
     init_encoding()
 
     app.debug = True
-    print "setup on http://0.0.0.0:8080"
+    print "setup on http://0.0.0.0:33455"
     # app.run(host='0.0.0.0', port=8080)
 
     from gevent.wsgi import WSGIServer
