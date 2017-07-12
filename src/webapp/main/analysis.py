@@ -10,7 +10,7 @@ from . import main
 
 
 @main.route('/result/', methods=['GET'])
-@main.route('/', methods=['GET'])
+# @main.route('/', methods=['GET'])
 def index():
     result = []
     for top, dirs, nondirs in os.walk(result_dir):
