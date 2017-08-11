@@ -41,19 +41,19 @@ def get_list(file_name):
     return l2
 
 
-def get_list_2(file_name):
-    print "load list start...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-    # 从文件中读取到列表里
-    l = file_utils.read_file_lines_to_list(file_name)
-    print "load list...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-    l2 = []
-    for item in l:
-        ps = "\"" + item.strip() + "\""
-        ps = eval(ps)
-        # ps = json.loads(ps)
-        l2.append(ps)
-    print "load list end...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-    return l2
+# def get_list_2(file_name):
+#     print "load list start...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+#     # 从文件中读取到列表里
+#     l = file_utils.read_file_lines_to_list(file_name)
+#     print "load list...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+#     l2 = []
+#     for item in l:
+#         ps = "\"" + item.strip() + "\""
+#         ps = eval(ps)
+#         # ps = json.loads(ps)
+#         l2.append(ps)
+#     print "load list end...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+#     return l2
 
 
 def do_success(date_now):
@@ -80,7 +80,7 @@ def do_fail(date_now):
     file_name = 'tmp/dissolvedecision_%s.json' % date_now
     print 'file_name:%s' % file_name
 
-    l = get_list_2(file_name)
+    l = get_list(file_name)
 
     result = jiesan_tongji.print_tongji(l)
     file_utils.write_obj_to_json_file(result, 'result/jiesan_%s.json' % date_now)
