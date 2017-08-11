@@ -48,7 +48,7 @@ def get_list_2(file_name):
     print "load list...%s" % datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     l2 = []
     for item in l:
-        ps = "'" + item.strip() + "'"
+        ps = "\"" + item.strip() + "\""
         ps = eval(ps)
         # ps = json.loads(ps)
         l2.append(ps)
