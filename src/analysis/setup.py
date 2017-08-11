@@ -23,7 +23,7 @@ sys.path.append(source_path)
 
 
 from analysis import file_utils
-from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji
+from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji, jiesan_tongji
 
 
 def get_list(file_name):
@@ -40,10 +40,10 @@ def get_list(file_name):
     return l2
 
 
-def do_day(date_now):
+def do_success(date_now):
     file_name = 'tmp/tmp_%s.json' % date_now
     print 'file_name:%s' % file_name
-
+    # 正常结算
     l = get_list(file_name)
 
     wanfa_result = wanfa_tongji.print_wanfaxuanze(l)
@@ -57,6 +57,25 @@ def do_day(date_now):
 
     shijian_result = shijian_tongji.print_shijian_tongji(l)
     file_utils.write_obj_to_json_file(shijian_result, 'result/shijian_%s.json' % date_now)
+
+
+def do_fail(date_now):
+    # 解散房间
+    file_name = 'tmp/dissolvedecision_%s.json' % date_now
+    print 'file_name:%s' % file_name
+
+    l = get_list(file_name)
+    result = jiesan_tongji.print_tongji(l)
+    file_utils.write_obj_to_json_file(result, 'result/jiesan_%s.json' % date_now)
+
+    pass
+
+
+def do_day(date_now):
+    do_success(date_now)
+    do_fail(date_now)
+
+
 
 
 def main():

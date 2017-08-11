@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/webapp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="PyPy 5.8.0 [Python 2.7.13] (/usr/local/Cellar/pypy/5.8.0/libexec/bin/pypy)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
