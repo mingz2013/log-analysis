@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/analysis/plugins/jiesan_tongji.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/log_analysis.iml" afterPath="$PROJECT_DIR$/.idea/log_analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/analysis.sh" afterPath="$PROJECT_DIR$/scripts/analysis.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/analysis/file_utils.py" afterPath="$PROJECT_DIR$/src/analysis/file_utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/analysis/setup.py" afterPath="$PROJECT_DIR$/src/analysis/setup.py" />
     </list>
     <ignored path="log_analysis.iws" />
@@ -27,21 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="analysis.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analysis.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/analysis.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="1030">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/analysis/file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +119,6 @@
         <option value="$PROJECT_DIR$/scripts/run_test.sh" />
         <option value="$PROJECT_DIR$/scripts/run_web.py" />
         <option value="$PROJECT_DIR$/scripts/run_web_test.sh" />
-        <option value="$PROJECT_DIR$/src/analysis/file_utils.py" />
         <option value="$PROJECT_DIR$/src/webapp/templates/errors/405.html" />
         <option value="$PROJECT_DIR$/src/webapp/templates/base.html" />
         <option value="$PROJECT_DIR$/src/webapp/main/errors.py" />
@@ -121,8 +127,9 @@
         <option value="$PROJECT_DIR$/src/webapp/main/analysis.py" />
         <option value="$PROJECT_DIR$/src/webapp/setup.py" />
         <option value="$PROJECT_DIR$/scripts/analysis.sh" />
-        <option value="$PROJECT_DIR$/src/analysis/setup.py" />
         <option value="$PROJECT_DIR$/src/analysis/plugins/jiesan_tongji.py" />
+        <option value="$PROJECT_DIR$/src/analysis/file_utils.py" />
+        <option value="$PROJECT_DIR$/src/analysis/setup.py" />
       </list>
     </option>
   </component>
@@ -474,13 +481,6 @@
       <option name="presentableId" value="Default" />
       <updated>1498823361937</updated>
     </task>
-    <task id="LOCAL-00028" summary="init">
-      <created>1499306927696</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1499306927696</updated>
-    </task>
     <task id="LOCAL-00029" summary="init">
       <created>1499345971628</created>
       <option name="number" value="00029" />
@@ -817,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499828714190</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="init">
+      <created>1502417779187</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1502417779187</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1026,13 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/file_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/main/errors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1125,6 +1125,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/analysis.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/analysis/plugins/jiesan_tongji.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1133,18 +1141,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/file_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="292">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/analysis.sh">
+    <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="1030">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>

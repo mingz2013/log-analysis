@@ -23,3 +23,4 @@ def read_file_lines_to_list(file_name):
 def write_obj_to_json_file(obj, file_name):
     with codecs.open(file_name, encoding='utf-8', mode='wb') as f:
         json.dump(obj, f, sort_keys=True, ensure_ascii=False, indent=2)
+
