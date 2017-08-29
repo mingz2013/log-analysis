@@ -7,5 +7,7 @@ find /home/log37/10.* -name GT712*$last_day | xargs grep '===analysis===' | awk 
 find /home/log37/10.* -name GT711*$last_day | xargs grep '===analysis===' | awk -F '===analysis===' '{print $2}' >> tmp/tmp_$last_day.json
 find /home/log37/10.* -name GT712*$last_day | xargs grep '===dissolveDecision===' | awk -F '===dissolveDecision===' '{print $2}' > tmp/dissolvedecision_$last_day.json
 find /home/log37/10.* -name GT711*$last_day | xargs grep '===dissolveDecision===' | awk -F '===dissolveDecision===' '{print $2}' >> tmp/dissolvedecision_$last_day.json
+find /home/log37/10.* -name GT712*$last_day | xargs grep '===analysis-big-result===' | awk -F '===analysis-big-result===' '{print $2}' > tmp/analysisbigresult_$last_day.json
+find /home/log37/10.* -name GT711*$last_day | xargs grep '===analysis-big-result===' | awk -F '===analysis-big-result===' '{print $2}' >> tmp/analysisbigresult_$last_day.json
 pypy src/analysis/setup.py
 echo "========================$last_day=====end============================"

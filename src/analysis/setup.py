@@ -23,7 +23,8 @@ sys.path.append(source_path)
 
 
 from analysis import file_utils
-from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji, jiesan_tongji
+from analysis.plugins import fanxing_tongji, fenshu_tongji, shijian_tongji, wanfa_tongji, jiesan_tongji, \
+    bigresult_tongji
 
 
 def get_list(file_name):
@@ -89,9 +90,21 @@ def do_fail(date_now):
     pass
 
 
+def do_big_result(date_now):
+    # 大结算统计
+    file_name = 'tmp/analysisbigresult_%s.json' % date_now
+    print 'file_name:%s' % file_name
+    # 正常结算
+    l = get_list(file_name)
+
+    bigresult = bigresult_tongji.print_big_result(l)
+    file_utils.write_obj_to_json_file(bigresult, 'result/bigresult_%s.json' % date_now)
+
+
 def do_day(date_now):
     do_success(date_now)
     do_fail(date_now)
+    do_big_result(date_now)
 
 
 
