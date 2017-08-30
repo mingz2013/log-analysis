@@ -28,7 +28,7 @@ def print_big_result(l):
         for score in scores:
             if score not in result[play_mode][cur_round_count]:
                 result[play_mode][cur_round_count][score] = 0
-                result[play_mode][cur_round_count][score] += 1
+            result[play_mode][cur_round_count][score] += 1
     print json.dumps(result, sort_keys=True, ensure_ascii=False)
 
     return result
