@@ -13,6 +13,7 @@ def print_big_result(l):
     print '====大结算统计===='
     result = {}
     for item in l:
+        print item
         scores = item['scores']
         play_mode = item['play_mode']
         if play_mode not in result:

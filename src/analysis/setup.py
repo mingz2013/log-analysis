@@ -102,8 +102,8 @@ def do_big_result(date_now):
 
 
 def do_day(date_now):
-    do_success(date_now)
-    do_fail(date_now)
+    # do_success(date_now)
+    # do_fail(date_now)
     do_big_result(date_now)
 
 
