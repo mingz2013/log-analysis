@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7512497-4702-4b35-a9ad-5b33bd4a2b9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py" afterPath="$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py" />
     </list>
     <ignored path="log_analysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="673">
               <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding />
             </state>
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigresult_tongji.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bigresult_tongji.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="e#78#89#0" expanded="true" />
               </folding>
@@ -140,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/analysis/plugins/jiesan_tongji.py" />
         <option value="$PROJECT_DIR$/src/analysis/file_utils.py" />
         <option value="$PROJECT_DIR$/scripts/analysis.sh" />
-        <option value="$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py" />
         <option value="$PROJECT_DIR$/src/analysis/setup.py" />
+        <option value="$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py" />
       </list>
     </option>
   </component>
@@ -493,13 +494,6 @@
       <option name="presentableId" value="Default" />
       <updated>1498823361937</updated>
     </task>
-    <task id="LOCAL-00039" summary="init">
-      <created>1499400047716</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1499400047716</updated>
-    </task>
     <task id="LOCAL-00040" summary="init">
       <created>1499400188707</created>
       <option name="number" value="00040" />
@@ -836,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504060184866</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="init">
+      <created>1504060303186</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1504060303186</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1206,21 +1207,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#78#89#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="673">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/setup.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/plugins/bigresult_tongji.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#78#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

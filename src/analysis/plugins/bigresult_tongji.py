@@ -18,6 +18,9 @@ def print_big_result(l):
         play_mode = item['play_mode']
         if play_mode not in result:
             result[play_mode] = {}
+        if not scores:
+            print 'warn, scores is None'
+            continue
         for score in scores:
             if score not in result[play_mode]:
                 result[play_mode][score] = 0
