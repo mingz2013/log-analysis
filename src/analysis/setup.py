@@ -96,14 +96,14 @@ def do_big_result(date_now):
     print 'file_name:%s' % file_name
     # 正常结算
     l = get_list(file_name)
-    print 'l', l
+    # print 'l', l
     bigresult = bigresult_tongji.print_big_result(l)
     file_utils.write_obj_to_json_file(bigresult, 'result/bigresult_%s.json' % date_now)
 
 
 def do_day(date_now):
-    # do_success(date_now)
-    # do_fail(date_now)
+    do_success(date_now)
+    do_fail(date_now)
     do_big_result(date_now)
 
 
