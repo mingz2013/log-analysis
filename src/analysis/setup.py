@@ -83,7 +83,7 @@ def do_fail(date_now):
     print 'file_name:%s' % file_name
 
     l = get_list_2(file_name)
-    print 'l', l
+    # print 'l', l
     result = jiesan_tongji.print_tongji(l)
     file_utils.write_obj_to_json_file(result, 'result/jiesan_%s.json' % date_now)
 
