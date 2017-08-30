@@ -83,7 +83,7 @@ def do_fail(date_now):
     print 'file_name:%s' % file_name
 
     l = get_list_2(file_name)
-
+    print 'l', l
     result = jiesan_tongji.print_tongji(l)
     file_utils.write_obj_to_json_file(result, 'result/jiesan_%s.json' % date_now)
 
@@ -96,7 +96,7 @@ def do_big_result(date_now):
     print 'file_name:%s' % file_name
     # 正常结算
     l = get_list(file_name)
-
+    print 'l', l
     bigresult = bigresult_tongji.print_big_result(l)
     file_utils.write_obj_to_json_file(bigresult, 'result/bigresult_%s.json' % date_now)
 
